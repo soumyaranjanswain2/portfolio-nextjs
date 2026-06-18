@@ -12,6 +12,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import CursorGlow from "../components/CursorGlow";
 // import GithubStats from "../components/GithubStats";
+import AIAssistant from "../components/AIAssistant";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -39,7 +40,7 @@ export default function Home() {
       <Contact />
       <Footer />
       <CursorGlow />
-      
+      <AIAssistant />
     </>
   );
 }
