@@ -2,8 +2,9 @@ import { ThemeProvider } from "../components/ThemeContext";
 import "./globals.css";
 
 export const metadata = {
-  title: "Soumya Ranjan | Portfolio",
-  description: "Frontend Developer — React, Next.js, Tailwind",
+  title: "Soumya Ranjan Swain | Frontend Developer",
+  description:
+    "Frontend Developer skilled in React.js, Next.js, Tailwind CSS and JavaScript.",
 };
 
 export default function RootLayout({ children }) {
